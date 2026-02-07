@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Andrés Saúl - CV</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Villa Hernandez Andrés Saúl</h1>
+    <p>Ingeniería en Sistemas | Desarrollador de software</p>
+  </header>
+
+  <section id="sobre-mi">
+    <h2>SOBRE MI</h2>
+    <p> Ingeniero en Sistemas Computacionales, 
+        recién egresado del Instituto Tecnológico de Orizaba, 
+        con conocimientos en desarrollo de software, 
+        administración básica de servidores web y redes de computadoras. 
+        Interesado en integrarse a un equipo de trabajo donde pueda aplicar y 
+        fortalecer mis habilidades técnicas, así como seguir aprendiendo en el área de 
+        tecnologías de la información. </p>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades Tecnicas</h2>
+    <ul>
+     <h2>Sistemas Operativos</h2>
+    <li>windows</li>
+    <li>Linux</li>
+
+    <h2>Lenguajes de programacion</h2>
+    <li>java</li>
+    <li>Python</li>
+    <li>C++</li>
+
+    <h2>Control de Versiones</h2>
+    <li>git</li>
+    <li>github</li>
+
+    <h2>Bases de datos</h2>
+    <li>mysql</li>
+    <li>PostgreSQL</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <button onclick="mostrarCorreo()">Mostrar correo</button>
+    <p id="correo"></p>
+  </section>
+
+  <script src="script.js"></script>
+  <script>
+    function mostrarCorreo() {
+      document.getElementById("correo").textContent = "saulvilla203gmail.com";
+    }
+  </script>
+</body>
+</html>
